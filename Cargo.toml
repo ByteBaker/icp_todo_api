@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/crud_demo_backend"
+]
+resolver = "2"
