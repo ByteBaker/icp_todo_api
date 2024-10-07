@@ -1,3 +1,7 @@
 service : {
-    "greet": (text) -> (text) query;
+    "create_todo": (text) -> (text);
+    "get_todo": (text) -> (opt text);
+    "delete_todo": (text) -> ();
+    "get_all_todos" : (nat64, nat64) -> (vec record {text; text});
+    "update_todo": (text, text) -> ();
 }
