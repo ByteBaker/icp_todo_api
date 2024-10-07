@@ -4,16 +4,6 @@
       "candid": "src/crud_demo_backend/crud_demo_backend.did",
       "package": "crud_demo_backend",
       "type": "rust"
-    },
-    "crud_demo_frontend": {
-      "dependencies": [
-        "crud_demo_backend"
-      ],
-      "source": [
-        "src/crud_demo_frontend/dist"
-      ],
-      "type": "assets",
-      "workspace": "crud_demo_frontend"
     }
   },
   "defaults": {
